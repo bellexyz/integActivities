@@ -1,0 +1,49 @@
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore PHPUnit cache
+.phpunit.cache
+
+# Ignore Node.js dependencies directory
+/node_modules
+
+# Ignore Laravel Mix generated assets
+/public/build
+/public/hot
+
+# Ignore Laravel public storage directory
+/public/storage
+
+# Ignore Laravel storage key files
+/storage/*.key
+
+# Ignore Composer's vendor directory
+/vendor
+
+# Ignore environment files
+.env
+.env.backup
+.env.production
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore Laravel Homestead configuration files
+Homestead.json
+Homestead.yaml
+
+# Ignore specific project-related JSON files
+auth.json
+
+# Ignore Node.js/npm debug log
+npm-debug.log
+
+# Ignore Yarn error log
+yarn-error.log
+
+# Ignore any fleet configuration files
+/.fleet
+
+# Ignore IDE-specific settings and directories
+/.idea
+/.vscode
